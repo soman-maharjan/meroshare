@@ -2,7 +2,7 @@ name: Trigger Site Rebuild on a CRON Schedule
 
 on:
   schedule:
-    - cron: "*/2 * * * *"
+    - cron: "*/5 * * * *"
 jobs:
   build:
     name: Log on console
